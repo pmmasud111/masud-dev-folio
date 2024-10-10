@@ -16,7 +16,7 @@
 
 # Demo :movie_camera:
 
-![](demo.png)
+![](./public/demo.png)
 
 <!-- ## View live preview [here](https://abusaid.netlify.app/). -->
 

@@ -23,6 +23,25 @@ export const projectsData = [
     demo: "",
     image: crefin,
   },
+  {
+    id: 2,
+    title: "Demo",
+    name: "Demo",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam ipsam culpa, fugit recusandae cum dolorum rem. Aperiam corporis ea sed laboriosam veritatis voluptatum sapiente minima dicta earum, ab culpa illo, numquam aliquid officia velit rem omnis quisquam quod veniam doloremque molestiae! Autem non earum excepturi aperiam, vel necessitatibus nihil?",
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Redux",
+      "TailwindCSS",
+    ],
+    role: "Frontend Developer",
+    code: "",
+    demo: "",
+    image: crefin,
+  },
 ];
 
 // Do not remove any property.

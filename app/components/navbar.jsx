@@ -26,7 +26,7 @@ function Navbar() {
     <nav className="bg-transparent fixed z-50 top-0 w-full py-4">
       <div className="flex items-center justify-between mx-auto lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] px-6 sm:px-12">
         <div className="flex flex-shrink-0 items-center">
-          <Link href="/">
+          <Link href="/#home">
             <div className="relative">
               <div className="w-[80px] h-[80px] bg-violet-50 rounded-full absolute -top-20 left-12 sm:left-24 translate-x-1/2 filter blur-3xl opacity-50"></div>
               {userName &&

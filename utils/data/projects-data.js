@@ -1,13 +1,11 @@
-import ayla from "/public/image/ayla.jpg";
 import crefin from "/public/image/crefin.jpg";
-import realEstate from "/public/image/real-estate.jpg";
-import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Reseller APP",
-    name: "Confidence Reseller APP",
+    title: "E-Commerce Reseller Website",
+    name: "Confidence Reseller BD",
+    url: "https://crefinbd.com/",
     description:
       "As part of a collaborative team, I focused on front-end development for an E-Commerce financial platform. I was responsible for creating dynamic, user-friendly interfaces using React.js and Next.js. The project also involved implementing state management with Redux and styling with TailwindCSS to ensure a responsive and intuitive user experience. I also collaborated on integrating OTP authentication via AWS SES for secure logins.",
     technologies: [
@@ -25,10 +23,10 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Demo",
-    name: "Demo",
+    title: "Peters PTE",
+    name: "Peters PTE",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quisquam ipsam culpa, fugit recusandae cum dolorum rem. Aperiam corporis ea sed laboriosam veritatis voluptatum sapiente minima dicta earum, ab culpa illo, numquam aliquid officia velit rem omnis quisquam quod veniam doloremque molestiae! Autem non earum excepturi aperiam, vel necessitatibus nihil?",
+      "This website is an innovative online platform designed to simulate the IELTS exam experience, utilizing a modern tech stack that includes HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Python, and Express.js. With a user-friendly interface and responsive design, it offers dynamic functionality for seamless navigation and interactive learning. The site features comprehensive exam preparation tools, including practice questions and timed tests, while integrating AI technology to provide personalized feedback and adaptive learning paths. Overall, it serves as a powerful educational resource for individuals seeking to excel in their IELTS exams",
     technologies: [
       "JavaScript",
       "TypeScript",

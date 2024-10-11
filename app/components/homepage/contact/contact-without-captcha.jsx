@@ -127,7 +127,7 @@ function ContactWithoutCaptcha() {
               </p>
             )}
             <button
-              className="flex items-center gap-1 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 hover:from-violet-600 hover:to-pink-500 hover:scale-105 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-700 ease-out hover:text-white hover:no-underline md:font-semibold"
+              className="flex items-center gap-1 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 hover:from-violet-600 hover:to-pink-500 hover:scale-105 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-700 ease-out hover:text-green-500 hover:no-underline md:font-semibold"
               role="button"
               onClick={handleSendMail}
             >

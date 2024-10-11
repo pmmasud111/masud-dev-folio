@@ -31,7 +31,8 @@ function Navbar() {
               <div className="w-[80px] h-[80px] bg-violet-50 rounded-full absolute -top-20 left-12 sm:left-24 translate-x-1/2 filter blur-3xl opacity-50"></div>
               {userName &&
                 userName.split("").map((letter, index) => (
-                  <motion.span
+                  <motion.Link
+                    href="/#home"
                     className="text-3xl font-bold"
                     key={index}
                     initial={{
@@ -48,7 +49,7 @@ function Navbar() {
                     }}
                   >
                     {letter.toUpperCase()}
-                  </motion.span>
+                  </motion.Link>
                 ))}
             </div>
           </Link>

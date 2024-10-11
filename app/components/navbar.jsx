@@ -1,13 +1,25 @@
 // @flow strict
+"use client";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 bg-[#0a0d36]">
-      <div className="flex items-center justify-between py-5  relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
-        <div className="flex flex-shrink-0 items-center">
-          <Link href="/" className=" text-[#16f2b3] text-3xl font-bold">
-            Masudur Rahman
+    <nav className="bg-transparent">
+      <div className="flex items-center justify-between  relative mx-auto lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
+        <div className="flex flex-shrink-0 items-center mt-4">
+          <Link href="/">
+            <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-20 left-24 translate-x-1/2 filter blur-3xl  opacity-50"></div>
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{
+                duration: 1,
+              }}
+              className="text-3xl font-bold text-green-400"
+            >
+              Masudur Rahman
+            </motion.p>
           </Link>
         </div>
 

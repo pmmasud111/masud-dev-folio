@@ -1,11 +1,17 @@
-// @flow strict
-
+"use client";
+import { motion } from "framer-motion";
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 
 function AboutSection() {
   return (
-    <div id="about" className=" my-12 lg:my-16 relative">
+    <motion.div
+      initial={{ opacity: 0, y: "100vh" }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1 }}
+      id="about"
+      className=" my-12 lg:my-16 relative"
+    >
       <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
         <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-2xl rounded-md">
           ABOUT ME
@@ -31,7 +37,7 @@ function AboutSection() {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

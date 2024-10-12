@@ -130,8 +130,8 @@ export const personalData = {
   twitter: "#",
   stackOverflow: "https://stackoverflow.com/users/22405025/md-masudur-rahman",
   leetcode: "https://leetcode.com/u/pmmasud111/",
-  devUsername: "masudurrahman.dev",
-  resume: "/masud-dev-cv.pdf",
+  devUsername: "pmmasud111",
+  resume: "https://drive.google.com/file/d/1xMPFnSRNwxkJsdhrpmYfENBekIjRcqW7/view?usp=drive_link",
 };
 
 

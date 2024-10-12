@@ -44,7 +44,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white mt-16">
+    <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
       <HeroSection />
       <AboutSection />
       <Experience />

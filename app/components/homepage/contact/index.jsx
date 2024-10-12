@@ -12,23 +12,26 @@ import ContactWithoutCaptcha from "./contact-without-captcha";
 
 function ContactSection() {
   return (
-    <div
-      id="contact"
-      className="my-12 lg:my-24 relative pt-4 md:pt-6 text-white "
-    >
+    <div id="contact" className=" my-12 lg:my-32 pt-8">
+      <div className="w-[100px] h-[100px] bg-violet-100 rounded-full absolute top-6 left-[42%] translate-x-1/2 filter blur-3xl  opacity-20"></div>
+
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
         </div>
       </div>
 
-      <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">
-          CONTACT
-        </span>
-        <span className="h-36 w-[2px] bg-[#1a1443]"></span>
+      <div className="flex justify-center my-5 lg:py-8">
+        <div className="flex  items-center">
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+          <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
+            CONTACT
+          </span>
+          <span className="w-24 h-[2px] bg-[#1a1443]"></span>
+        </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center mt-16">
         {process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY &&
         process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY ? (
           <ContactWithCaptcha />

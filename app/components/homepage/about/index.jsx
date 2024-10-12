@@ -10,7 +10,7 @@ function AboutSection() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
       id="about"
-      className="my-12 lg:my-24 relative pt-4 md:pt-6 "
+      className="my-12 lg:my-24 relative pt-4 md:pt-8 "
     >
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">

@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 
 function HeroSection() {
   return (
-    <section className="relative flex flex-col items-center justify-between pt-8 lg:pt-24">
+    <section className="relative flex flex-col items-center justify-between pt-8 lg:pt-36">
       <Image
         src="/hero.svg"
         alt="Hero"

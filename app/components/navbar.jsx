@@ -23,7 +23,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="bg-transparent fixed z-50 top-0 w-full py-4">
+    <nav className="bg-[#0d153a] fixed z-50 top-0 w-full py-4 mx-auto">
       <div className="flex items-center justify-between mx-auto lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] px-6 sm:px-12">
         <div className="flex flex-shrink-0 items-center">
           <Link href="/#home">
@@ -88,7 +88,7 @@ function Navbar() {
                 className="block px-2 py-2 no-underline outline-none hover:no-underline"
                 href={item.href}
               >
-                <div className="text-sm text-white bg-gradient-to-r from-pink-500 to-violet-600 hover:from-violet-500 hover:to-pink-500 py-1.5 px-3 transition-all duration-500 rounded-md hover:scale-110 hover:text-green-300 hover:shadow-xl">
+                <div className="text-sm text-white hover:bg-gradient-to-t from-violet-500/30 hover:to-pink-500/30 py-1.5 px-3 transition-all duration-500 rounded-md hover:scale-110 hover:text-green-300 hover:shadow-xl">
                   {item.name}
                 </div>
               </Link>
@@ -98,7 +98,7 @@ function Navbar() {
       </div>
 
       {/* Add a gap between the navbar and the content */}
-      <div className="pt-24"></div>
+      {/* <div className="pt-24"></div> */}
     </nav>
   );
 }

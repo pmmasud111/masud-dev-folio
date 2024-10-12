@@ -17,7 +17,7 @@ function Navbar() {
     const letters = "0123456789ABCDEF";
     let color = "#";
     for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
+      color += letters[Math.floor(Math.random() * 100) % 16];
     }
     return color;
   }
@@ -35,7 +35,7 @@ function Navbar() {
                     className="text-3xl font-bold"
                     key={index}
                     initial={{
-                      opacity: 0.9,
+                      opacity: 0.5,
                       color: getRandomColor(),
                     }}
                     animate={{
@@ -43,8 +43,10 @@ function Navbar() {
                       color: getRandomColor(),
                     }}
                     transition={{
-                      duration: 3,
+                      duration: 2,
+                      ease: "easeIn",
                       repeat: Infinity,
+                      repeatType: "reverse",
                     }}
                   >
                     {letter.toUpperCase()}
@@ -83,7 +85,7 @@ function Navbar() {
           ].map((item, index) => (
             <li key={index} className="mt-4 md:mt-0">
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline"
+                className="block px-2 py-2 no-underline outline-none hover:no-underline"
                 href={item.href}
               >
                 <div className="text-sm text-white bg-gradient-to-r from-pink-500 to-violet-600 hover:from-violet-500 hover:to-pink-500 py-1.5 px-3 transition-all duration-500 rounded-md hover:scale-110 hover:text-green-300 hover:shadow-xl">

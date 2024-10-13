@@ -21,25 +21,26 @@ export const projectsData = [
     demo: "",
     image: crefin,
   },
-  {
-    id: 2,
-    title: "Peters PTE",
-    name: "Peters PTE",
-    description:
-      "This website is an innovative online platform designed to simulate the IELTS exam experience, utilizing a modern tech stack that includes HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Python, and Express.js. With a user-friendly interface and responsive design, it offers dynamic functionality for seamless navigation and interactive learning. The site features comprehensive exam preparation tools, including practice questions and timed tests, while integrating AI technology to provide personalized feedback and adaptive learning paths. Overall, it serves as a powerful educational resource for individuals seeking to excel in their IELTS exams",
-    technologies: [
-      "JavaScript",
-      "TypeScript",
-      "React.js",
-      "Next.js",
-      "Redux",
-      "TailwindCSS",
-    ],
-    role: "Frontend Developer",
-    code: "",
-    demo: "",
-    image: crefin,
-  },
+  // {
+  //   id: 2,
+  //   title: "Demo Website",
+  //   name: "Hujur.com",
+  //   url: "https://hujur.com/",
+  //   description:
+  //     "This website is an innovative online platform designed to simulate the IELTS exam experience, utilizing a modern tech stack that includes HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Python, and Express.js. With a user-friendly interface and responsive design, it offers dynamic functionality for seamless navigation and interactive learning. The site features comprehensive exam preparation tools, including practice questions and timed tests, while integrating AI technology to provide personalized feedback and adaptive learning paths. Overall, it serves as a powerful educational resource for individuals seeking to excel in their IELTS exams",
+  //   technologies: [
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "React.js",
+  //     "Next.js",
+  //     "Redux",
+  //     "TailwindCSS",
+  //   ],
+  //   role: "Frontend Developer",
+  //   code: "",
+  //   demo: "",
+  //   image: crefin,
+  // },
 ];
 
 // Do not remove any property.
